@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-image: url(sushi-boston.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Liu Jian Mao Cao', cursive;
+    color:white;
+    
+}
+
+.form{    
+    height: 100vh;
+    display:flex;
+}
+
+.form-body{
+    margin:auto;
+    width:400px;
+    height:550px;
+    background-color:#050A06;
+    border-radius: 10px;
+    margin:auto;
+    padding:20px;
+    box-shadow: 0 0 20px whitesmoke;
+    box-sizing: border-box
+
+}
+.form-inputs{
+    display:flex;
+    flex-direction:column;
+}
+h2{
+    text-align: center;
+    margin-bottom:30px;
+    font-size:2em;
+}
+label{
+    font-size:1.5em;
+    font-weight:900;
+    text-transform: capitalize;    
+}
+input{
+    border-radius: 2px;
+    border:none;
+    padding:10px;
+    font-weight:700;
+    width:80%;
+    margin-top: 4px
+
+
+}
+textarea{
+    margin-top:10px;
+    border-radius:8px;
+
+}
+
+.submit{
+    width:200px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin:auto;
+}
+
+.story{
+    margin-top:15px;
+    margin-bottom:10px;
+}
